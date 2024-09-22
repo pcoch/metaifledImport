@@ -1,0 +1,47 @@
+{
+  "data": {
+    "metafieldDefinitions": {
+      "edges": [
+        {
+          "node": {
+            "id": "gid://shopify/MetafieldDefinition/41239511096",
+            "name": "LoyaltySpend",
+            "namespace": "loyalty",
+            "description": "",
+            "key": "spend",
+            "ownerType": "CUSTOMER",
+            "type": {
+              "name": "number_integer",
+              "category": "NUMBER"
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "gid://shopify/MetafieldDefinition/41239543864",
+            "name": "Billing Address",
+            "namespace": "custom",
+            "description": "",
+            "key": "billing_address",
+            "ownerType": "CUSTOMER",
+            "type": {
+              "name": "multi_line_text_field",
+              "category": "TEXT"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "extensions": {
+    "cost": {
+      "requestedQueryCost": 24,
+      "actualQueryCost": 4,
+      "throttleStatus": {
+        "maximumAvailable": 20000,
+        "currentlyAvailable": 19996,
+        "restoreRate": 1000
+      }
+    }
+  }
+}
